@@ -1,0 +1,10 @@
+<suite name="Sample Test Suite">
+    <listeners>
+        <listener class-name="TestUtils.TestListener"/>
+    </listeners>
+    <test name="Sample Test">
+        <classes>
+            <class name="Tests.TestJira"/>
+        </classes>
+    </test>
+</suite>
